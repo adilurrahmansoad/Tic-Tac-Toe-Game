@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body{
+    background-color: #2C3A47;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #CAD3C8;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 2.5rem;
+    color:  #2C3A47;
+    background-color: #CAD3C8;
+    border: none;
+    border-radius: 1rem;
+}
+
+#reset-game{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    height: 5vmin;
+    width: 20vmin;
+    font-size: 1rem;
+    background: #CAD3C8;
+    border: none;
+    border-radius: 0.5rem;
+    color: #2C3A47;
+    cursor: pointer;
+}
+
+#new-game{
+    margin: 1rem 0;
+    height: 5vmin;
+    width: 20vmin;
+    font-size: 1rem;
+    background: #CAD3C8;
+    border: none;
+    border-radius: 0.5rem;
+    color: #2C3A47;
+    cursor: pointer;
+}
+
+.win-msg{
+    margin: 1rem 0;
+    color: #F8EFBA;
+    font-size: 2rem;
+}
+
+.winning-msg{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hide{
+    display: none;
+}
